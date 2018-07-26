@@ -8,12 +8,7 @@
     </script>
     <script>
        sap.ui.getCore().attachInit(function () {
-           new sap.m.Button({
-               text: "Say Hello",
-               press: function() {
-                  sap.m.MessageToast.show("Hello World");
-               }
-           }).placeAt("content");
+           new sap.m.StandardListItem().placeAt("content");
        });
    </script>
   </head>
